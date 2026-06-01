@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock - Multiple Timezones</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">
+                <i class="fas fa-arrow-left"></i> Back to Portfolio
+            </a>
+            <h1 class="page-title">Digital Clock</h1>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h2>World Time</h2>
+            <p>Current time across different timezones</p>
+        </header>
+
+        <!-- Controls -->
+        <div class="controls">
+            <div class="search-box">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Search timezone..."
+                    class="search-input"
+                >
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="view-toggle">
+                <button class="toggle-btn active" data-view="24">
+                    <i class="fas fa-clock"></i> 24H
+                </button>
+                <button class="toggle-btn" data-view="12">
+                    <i class="fas fa-hourglass"></i> 12H
+                </button>
+            </div>
+        </div>
+
+        <!-- Clocks Grid -->
+        <div class="clocks-grid" id="clocksGrid"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Digital Clock App | Created by Carlwantbuddy</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
