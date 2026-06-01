@@ -7,6 +7,12 @@ const projects = [
         url: "https://github.com/Carlwantbuddy/Aplacador-Portfolio"
     },
     {
+        name: "Digital Clock - Multiple Timezones",
+        language: "Web App",
+        description: "Beautiful interactive digital clock displaying current time across 16 different timezones with analog and digital displays.",
+        url: "./clock/index.html"
+    },
+    {
         name: "Transaction Management & Concurrency Control",
         language: "HTML",
         description: "Understanding and implementing transaction management concepts with concurrency control mechanisms.",
